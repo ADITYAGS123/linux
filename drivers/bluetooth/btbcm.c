@@ -40,6 +40,7 @@ typedef char bcm_fw_name[BCM_FW_NAME_LEN];
 #ifdef CONFIG_EFI
 static int btbcm_set_bdaddr_from_efi(struct hci_dev *hdev)
 {
+	printf("Adi change 2 ");
 	efi_guid_t guid = EFI_GUID(0x74b00bd9, 0x805a, 0x4d61, 0xb5, 0x1f,
 				   0x43, 0x26, 0x81, 0x23, 0xd1, 0x13);
 	bdaddr_t efi_bdaddr, bdaddr;
