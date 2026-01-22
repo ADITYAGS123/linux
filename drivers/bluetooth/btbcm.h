@@ -70,8 +70,6 @@ int btbcm_finalize(struct hci_dev *hdev, bool *fw_load_done, bool use_autobaud_m
 static inline int btbcm_check_bdaddr(struct hci_dev *hdev)
 {
 	printf("Sneha change 1");
-	printf("Adi change 1");
-	printf("Adi changing sneha ");
 	return -EOPNOTSUPP;
 }
 
